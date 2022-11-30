@@ -2,36 +2,3 @@ baseURL = 'https://tsic.top/'
 languageCode = 'zh-CN'
 title = "Tsic's Blog"
 theme = "papermode"
-
-params:
-    profileMode:
-        enabled: true
-        title: "Tsic's Blog" # optional default will be site title
-        subtitle: "Tsic's detial"
-        imageUrl: "https://avatars.githubusercontent.com/u/48748112?v=4" # optional
-        imageTitle: "Tsic" # optional
-        imageWidth: 120 # custom size
-        imageHeight: 120 # custom size
-        buttons:
-            - name: Archive
-            url: "/archive"
-            - name: Github
-            url: "https://github.com/tsic404"
-    socialIcons: # optional
-        - name: "<platform>"
-            url: "<link>"
-        - name: "<platform 2>"
-            url: "<link2>"
-
-    giscus
-        data_repo: "tsic404/blog"
-        data_repo_id: "R_kgDOIEz20Q"
-        data_category: "Announcements"
-        data_category_id: "DIC_kwDOIEz20c4CS1ks"
-        data_mapping: "pathname"
-        data_reactions_enabled: "1"
-        data_emit_metadata: "0"
-        data_theme: "preferred_color_scheme"
-        data_lang: "zh-CN"
-        data_loading: "lazy"
-        crossorigin: "anonymous"
